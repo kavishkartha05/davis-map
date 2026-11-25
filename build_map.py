@@ -2,7 +2,7 @@ import folium
 
 
 RESTAURANTS = (
-    ("Burgers and Brew", [38.544405, -121.743482]),
+    ("Thai Canteen", [38.5424669, -121.7409905]),
     ("Sophia's Thai Kitchen", [38.542746, -121.741362]),
     ("Guads Tacos & Beer", [38.543935, -121.745829]),
 )
