@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <style>html > body { width: 800px; height: 600px; }</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0c0bda6b344cc627b4d856794fe9fbf9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0c0bda6b344cc627b4d856794fe9fbf9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0c0bda6b344cc627b4d856794fe9fbf9 = L.map(
+                "map_0c0bda6b344cc627b4d856794fe9fbf9",
+                {
+                    center: [38.5434, -121.7413],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 15,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c262a2853d486755996c63cf579ceeb3 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c262a2853d486755996c63cf579ceeb3.addTo(map_0c0bda6b344cc627b4d856794fe9fbf9);
+        
+    
+            var marker_df624cf83211dbf06d4519b35e978296 = L.marker(
+                [38.544405, -121.743482],
+                {
+}
+            ).addTo(map_0c0bda6b344cc627b4d856794fe9fbf9);
+        
+    
+        var popup_6266b08667b2c166eaef98e8d6599a3e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_214ec85d18a04b5f546a801f7b1c8504 = $(`<div id="html_214ec85d18a04b5f546a801f7b1c8504" style="width: 100.0%; height: 100.0%;">Burgers and Brew</div>`)[0];
+                popup_6266b08667b2c166eaef98e8d6599a3e.setContent(html_214ec85d18a04b5f546a801f7b1c8504);
+            
+        
+
+        marker_df624cf83211dbf06d4519b35e978296.bindPopup(popup_6266b08667b2c166eaef98e8d6599a3e)
+        ;
+
+        
+    
+    
+            marker_df624cf83211dbf06d4519b35e978296.bindTooltip(
+                `<div>
+                     Burgers and Brew
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a3ebd9115411a2fa5f0dc1132b029193 = L.marker(
+                [38.542746, -121.741362],
+                {
+}
+            ).addTo(map_0c0bda6b344cc627b4d856794fe9fbf9);
+        
+    
+        var popup_5380e48e4db03b9028fa815d1ad599e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c7eec73460b97ef5853f8b841c78204 = $(`<div id="html_4c7eec73460b97ef5853f8b841c78204" style="width: 100.0%; height: 100.0%;">Sophia's Thai Kitchen</div>`)[0];
+                popup_5380e48e4db03b9028fa815d1ad599e2.setContent(html_4c7eec73460b97ef5853f8b841c78204);
+            
+        
+
+        marker_a3ebd9115411a2fa5f0dc1132b029193.bindPopup(popup_5380e48e4db03b9028fa815d1ad599e2)
+        ;
+
+        
+    
+    
+            marker_a3ebd9115411a2fa5f0dc1132b029193.bindTooltip(
+                `<div>
+                     Sophia's Thai Kitchen
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_287fdfc32536e6bd18db4c7570b759b6 = L.marker(
+                [38.543935, -121.745829],
+                {
+}
+            ).addTo(map_0c0bda6b344cc627b4d856794fe9fbf9);
+        
+    
+        var popup_4ff8eaa7e75fabd4d7cfbf89aa978346 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63ed7199fe22a972698d626f7cebe9d1 = $(`<div id="html_63ed7199fe22a972698d626f7cebe9d1" style="width: 100.0%; height: 100.0%;">Guads Tacos & Beer</div>`)[0];
+                popup_4ff8eaa7e75fabd4d7cfbf89aa978346.setContent(html_63ed7199fe22a972698d626f7cebe9d1);
+            
+        
+
+        marker_287fdfc32536e6bd18db4c7570b759b6.bindPopup(popup_4ff8eaa7e75fabd4d7cfbf89aa978346)
+        ;
+
+        
+    
+    
+            marker_287fdfc32536e6bd18db4c7570b759b6.bindTooltip(
+                `<div>
+                     Guads Tacos & Beer
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
