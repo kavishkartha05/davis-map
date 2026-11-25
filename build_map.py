@@ -12,6 +12,12 @@ def main():
     fig = folium.Figure(width=800, height=600)
     m = folium.Map(location=[38.5434, -121.7413], zoom_start=15)
     fig.add_child(m)
+    # A saved Figure renders directly into the document body.
+    fig.header.add_child(
+        folium.Element(
+            "<style>html > body { width: 800px; height: 600px; }</style>"
+        )
+    )
 
     for name, location in RESTAURANTS:
         folium.Marker(location=location, popup=name, tooltip=name).add_to(m)
